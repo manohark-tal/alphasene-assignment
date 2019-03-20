@@ -1,0 +1,7 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "C:\\Users\\Manohar\\Documents\\Projects\\loopback-chat-app\\server\\data.json"
+  }
+}

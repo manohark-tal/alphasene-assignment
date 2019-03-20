@@ -1,0 +1,41 @@
+{
+  "name": "Message",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "data": {
+      "type": "string",
+      "required": true
+    },
+    "timestamp": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "now"
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "channelId": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "channel": {
+      "type": "belongsTo",
+      "model": "Channel",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

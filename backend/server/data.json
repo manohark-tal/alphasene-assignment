@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Message": 3,
+    "Channel": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Message": {
+      "1": "{\"data\":\"dasda\",\"timestamp\":\"2019-03-20T12:39:18.895Z\",\"username\":\"dasds\",\"channelId\":1,\"id\":1}",
+      "2": "{\"data\":\"dasdasdas\",\"timestamp\":\"2019-03-20T12:39:25.482Z\",\"username\":\"dasds\",\"channelId\":1,\"id\":2}"
+    },
+    "Channel": {}
+  }
+}
